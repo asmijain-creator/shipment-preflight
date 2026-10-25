@@ -17,6 +17,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             </a>
             <nav className="flex gap-4 text-sm text-slate-600">
               <a href="/" className="hover:text-slate-900">Upload</a>
+              <a href="/chat" className="hover:text-slate-900">New booking (chat)</a>
               <a href="/queue" className="hover:text-slate-900">Review queue</a>
             </nav>
           </div>
