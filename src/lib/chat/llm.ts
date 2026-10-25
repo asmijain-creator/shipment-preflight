@@ -5,7 +5,7 @@ import { MissingField } from "./missing";
 import { llmResponseSchema, LlmResponse } from "./edit-schema";
 import { istToday } from "@/lib/parsing/dates";
 
-const MODEL = "gemini-2.5-flash";
+const MODEL = "gemini-3.8-flash";
 
 function compactBooking(b: Booking) {
   return {
